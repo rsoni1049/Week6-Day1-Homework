@@ -1,0 +1,49 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header with background image - FIXED */
+.site-header {
+  background: url('../images/central_park.jpg') center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  width: 100%;
+  position: relative;
+}
+
+.site-header h1 {
+  font-size: 3rem;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Rest of your CSS remains the same */
+nav {
+  background-color: rgb(255, 245, 238);
+  padding: 15px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+/* ... (keep all other existing CSS rules) ... */
